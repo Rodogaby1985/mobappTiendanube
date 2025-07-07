@@ -1,7 +1,7 @@
 {
-  "name": "mobapp-servicio-logistico-tiendanube",
+  "name": "servicio-logistico-tiendanube",
   "version": "1.0.0",
-  "description": "Integración de tarifarios logísticos de mobapp con TiendaNube/Nuvem",
+  "description": "Integración logística con TiendaNube/Nuvemshop",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,9 +9,7 @@
     "deploy": "netlify deploy"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "express": "^4.18.2",
-    "@netlify/db": "^0.0.5"
+    "axios": "^1.6.2"
   },
   "engines": {
     "node": ">=18.x"

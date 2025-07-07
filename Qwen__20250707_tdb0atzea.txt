@@ -1,0 +1,10 @@
+mi-app-logistica/
+│
+├── .gitignore              # Archivos ignorados
+├── README.md               # Descripción del proyecto
+├── package.json            # Dependencias de Node.js
+├── netlify.toml            # Configuración de Netlify
+├── .env                    # Variables de entorno
+└── /functions/
+    ├── oauth-callback.js   # Autenticación OAuth
+    └── webhook-handler.js # Recepción de eventos de privacidad

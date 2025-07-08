@@ -1,7 +1,7 @@
 {
   "name": "servicio-logistico-tiendanube",
-  "version": "1.0.0",
-  "description": "Integración logística con TiendaNube/Nuvemshop",
+  "version": "1.2.0",
+  "description": "Integración de tarifarios logísticos con TiendaNube/Nuvemshop",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.6.2",
-    "pg": "^8.16.3"
+    "pg": "^8.12.2"
   },
   "engines": {
     "node": ">=18.x"

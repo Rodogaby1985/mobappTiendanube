@@ -1,28 +1,22 @@
-# Servicio Logístico Integrado para TiendaNube/Nuvem
+# Servicio Logístico Integrado para TiendaNube/Nuvemshop
 
-Este proyecto permite sincronizar métodos de envío desde un sistema centralizado hacia múltiples tiendas de TiendaNube usando la API REST oficial.
+Este proyecto permite integrar automáticamente tarifas logísticas por peso y provincia desde un **Google Sheet centralizado** hacia múltiples tiendas de **TiendaNube/Nuvemshop**.
 
 ## Funcionalidades
 
-- Registro mediante OAuth 2.0
-- Webhooks obligatorios de privacidad
-- Base de datos con Neon (PostgreSQL)
-- Tarifarios logísticos leídos desde Google Sheets (opcional)
+✅ Autenticación con OAuth 2.0  
+✅ Webhooks obligatorios de privacidad (`store/redact`, etc.)  
+✅ Tarifarios leídos desde Google Sheets  
+✅ Guardado seguro de tokens en PostgreSQL (Neon DB)  
+✅ Métodos de envío creados dinámicamente
 
 ## Tecnología usada
 
 - Node.js + Express
 - Netlify Functions
-- @netlify/db (con extensión Neon)
-- Google Sheets API (opcional)
-
-## Instalación
-
-1. Clona el repositorio
-2. Ejecuta `npm install`
-3. Configura tus variables de entorno
-4. Despliega en Netlify
+- PostgreSQL con Neon DB
+- Google Sheets API
 
 ## Autores
 
-Tu nombre - [tuemail@dominio.com](mailto:tuemail@dominio.com)
+Rodrigo Castañera - contacto@dominio.com
